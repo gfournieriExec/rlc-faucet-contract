@@ -22,5 +22,8 @@
     "lodash": "^4.17.4",
     "truffle-contract": "2.0.0",
     "web3": "0.20.2"
+  },
+  "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.17"
   }
 }
