@@ -28,8 +28,8 @@ contract RLC is ERC20, SafeMath, Ownable {
     initialSupply = 87000000000000000;
     totalSupply = initialSupply;
     balances[msg.sender] = initialSupply;// Give the creator all initial tokens
-    name = 'iExec RLC Token';        // Set the name for display purposes
-    symbol = 'RLC';                       // Set the symbol for display purposes
+    name = '@RLC_NAME@';        // Set the name for display purposes
+    symbol = '@RLC_SYMBOLE@';                       // Set the symbol for display purposes
     decimals = 9;                        // Amount of decimals for display purposes
   }
 

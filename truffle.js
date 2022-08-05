@@ -39,7 +39,7 @@ module.exports = {
     goerli: {
       provider: () => {
         return new HDWalletProvider(
-          "@MoC_PRIVATE_KEY",
+          "@MoC_PRIVATE_KEY@",
           "https://goerli.infura.io/v3/fe05e55ba1724b0589f19037b0a54a38"
         );
       },
